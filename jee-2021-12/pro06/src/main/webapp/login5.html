@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function fn_validate(){
+      var frmLogin = document.frmLogin; //<form>태그의 name 속성으로 <form>태그 객체를 받아온다.
+        
+      var user_id = frmLogin.user_id.value; 
+      var user_pw = frmLogin.user_pw.value; //<form>태그 내 <input>태그의 name속성으로 입력한 id와 비밀번호를 받아온다.
+
+      if((user_id.length == 0 || user_id == "")||(user_pw.length == 0 || user_pw == "")){
+        alert("아이디와 비밀번호는 필수입니다.");
+
+      }else{
+        
+        frmLogin.method="post"
+        frmLogin.action="Login5"
+        frmLogin.submit();
+      }
+    }
+
+    
+  </script>
+
+  <title>로그인창</title>
+</head>
+<body>
+  <form name="frmLogin" method="post" action="Login5" enctype="UTF-8">
+    아이디: <input type="text" name="user_id"><br>
+    비밀번호: <input type="password"name="user_pw"><br>
+    <input type="button" onClick="fn_validate()" value="로그인">
+    <input type="reset" value="다시입력">
+    <input type="hidden" name="user_address" value="서울시 성북구">
+  </form>
+</body>
+</html>
