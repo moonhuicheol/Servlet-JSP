@@ -11,18 +11,19 @@ import java.util.List;
 import lombok.extern.log4j.Log4j2;
 
 
+
 @Log4j2
 public class MemberDAO {
 	
 	private static final String driverclass = "oracle.jdbc.driver.OracleDriver";
-	private static final String url = "jdbc:oracle:thin:@db202204131245_high_high?TNS_ADMIN=C:/opt/OracleCloudWallet/ATP";
-	private static final String user = "admin";
+	private static final String url = "jdbc:oracle:thin:@db202204131245_high?TNS_ADMIN=C:/opt/OracleCloudWallet/ATP";
+	private static final String user = "ADMIN";
 	private static final String pwd = "Oracle123456";
 	
 	//MemberDAO의 메소드
-	public List listMembers() {
+	public List<MemberDTO> listMembers() {
 		
-		List list = new ArrayList();
+		List<MemberDTO> list = new ArrayList<MemberDTO>();
 		
 		try {
 			
@@ -66,5 +67,6 @@ public class MemberDAO {
 		}
 		return list;
 	}
-
+	
+	
 }
