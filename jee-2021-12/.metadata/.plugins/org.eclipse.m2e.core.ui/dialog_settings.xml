@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\app\eclipse\workspace\jee-2021-12\pro06"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,12 +26,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.zerock.pro07"/>
+			<item value="org.zerock.pro007"/>
 			<item value="org.zerock.myapp"/>
 		</list>
 		<list key="groupId">
 			<item value="org.zerock"/>
 		</list>
 		<list key="artifactId">
+			<item value="pro07"/>
+			<item value="pro007"/>
 			<item value="mweb01"/>
 			<item value="JDBCExamples"/>
 		</list>
