@@ -13,6 +13,7 @@
 
     <Loggers>
         <Logger name="sec01.ex01" level="trace" />
+        <Logger name="sec02.ex01" level="trace" />
         <Logger name="sec03.ex01" level="trace" />
         <Logger name="sec03.ex02" level="trace" />
         <Logger name="sec03.ex03" level="trace" />

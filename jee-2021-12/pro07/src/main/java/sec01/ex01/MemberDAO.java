@@ -32,7 +32,7 @@ public class MemberDAO {
 			log.debug("conn: "+conn);
 			
 			
-			String query = "SELECT * FROM t_member ";
+			String query = "SELECT * FROM t_member";
 			
 			log.info("query:{}", query);
 			

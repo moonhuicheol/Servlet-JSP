@@ -6,4 +6,20 @@
 			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\lcch1\OneDrive\바탕 화면\TestProject"/>
+			<item value="C:\Users\lcch1\OneDrive\바탕 화면\깃허브테스ㅡ\test3"/>
+			<item value="C:\Users\lcch1\OneDrive\바탕 화면\adv\test2"/>
+			<item value="C:\Users\lcch1\OneDrive\바탕 화면\test\please"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
 </section>

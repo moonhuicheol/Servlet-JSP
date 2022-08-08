@@ -3,6 +3,7 @@
   <module moduleId="org.eclipse.jst.jee.server:mweb01" serverId="Tomcat v9.0"/>
   <module moduleId="org.eclipse.jst.j2ee.server:mweb01"/>
   <module moduleId="org.eclipse.jst.j2ee.server:pro07" serverId="Tomcat v9.0"/>
+  <module moduleId="org.eclipse.jst.jee.server:5mtutoring" serverId="Tomcat v9.0"/>
   <module moduleId="org.eclipse.jst.jee.server:pro06" serverId="Tomcat v9.0"/>
   <module moduleId="org.eclipse.jst.jee.server:pro07" serverId="Tomcat v9.0"/>
 </modules>
