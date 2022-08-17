@@ -1,3 +1,5 @@
 #Tomcat publish data
-#Mon Aug 08 22:13:16 KST 2022
-org.eclipse.jst.jee.server\:pro07=C\:\\app\\scoop\\apps\\tomcat9\\current\\wtpwebapps\\pro07
+#Wed Aug 17 22:12:43 KST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\lcch1\\.m2\\repository\\org\\springframework\\spring-web\\5.3.22\\spring-web-5.3.22.jar=C\:\\app\\scoop\\apps\\tomcat9\\current\\wtpwebapps\\5mtutoring\\WEB-INF\\lib\\spring-web-5.3.22.jar
+org.eclipse.jst.jee.server\:pro08=C\:\\app\\scoop\\apps\\tomcat9\\current\\wtpwebapps\\pro08
+org.eclipse.jst.jee.server\:5mtutoring=C\:\\app\\scoop\\apps\\tomcat9\\current\\wtpwebapps\\5mtutoring

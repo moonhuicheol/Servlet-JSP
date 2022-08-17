@@ -30,8 +30,10 @@ public class MemberServlet extends HttpServlet {
 		MemberDAO dao = new MemberDAO();
 		
 		List<MemberDTO> list = dao.listMembers();
+		log.info("info:{}", list);
 		
 		response.setContentType("text/html; charset=utf-8");
+		
 		
 		PrintWriter out = response.getWriter();
 		out.println ("<html><body>");
